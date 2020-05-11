@@ -1,0 +1,33 @@
+html, body {
+  padding: 0;
+  font-family: times new roman;
+}
+canvas {
+  display: block;
+}
+#titre{
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+#problematique{
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+}
+.telecharger{
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+}
+#infos{
+  font-weight: normal;
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  bottom: -520px;
+  width: 100%;
+  text-align: center;
+}
