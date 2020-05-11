@@ -18,8 +18,7 @@ let lCanvasInput = 1090; //Longueur totale du canvas plus des inputs
 let imgAlgue;
 let imgNuage;
 let imgBateau;
-let imgPoissonD;
-let imgPoissonG;
+let imgPoisson;
 let imgSable;
 let imgGravats;
 
@@ -154,11 +153,10 @@ function setup() {
   canvas.position(xCanvas, yCanvas);
   imageMode(CORNER);
   //Téléchargement des images
-  imgAlgue = loadImage('Photos/algue1.png');
+  imgAlgue = loadImage('Photos/algue.png');
   imgNuage = loadImage('Photos/nuage.png');
   imgBateau = loadImage('Photos/bateau.png');
-  imgPoissonD = loadImage('Photos/poissonD.png');
-  imgPoissonG = loadImage('Photos/poissonG.png');
+  imgPoisson = loadImage('Photos/poisson.png');
   imgSable = loadImage('Photos/sable.png');
   imgGravats = loadImage('Photos/gravats.png');
 
@@ -413,7 +411,7 @@ function draw() {
 
   //Poissons
   for (let i = 0; i < xPoisson.length; i++) {
-    image(imgPoissonD, xPoisson[i], yPoisson[i]);
+    image(imgPoisson, xPoisson[i], yPoisson[i]);
     yPoisson[i] = constrain(yPoisson[i], yBateau + hBateau, height - hSol - hPoisson);
     xPoisson[i] += vPoisson;
     yPoisson[i] += random(-variationPoisson, variationPoisson);
