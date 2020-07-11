@@ -1,4 +1,4 @@
-[![made-with-p5js](https://img.shields.io/badge/Made_with-p5.js-ED1F5E.svg)](https://p5js.org)
+[![fait-avec-p5js](https://img.shields.io/badge/Fait_avec-p5.js-ED1F5E.svg)](https://p5js.org)
 
 [![readme_title](readme_title.png)](https://github.com/armandwayoff/Simulation-Animee-TPE)
 
